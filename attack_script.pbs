@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N attack_templates_default_cache
+#PBS -W group_list=rlysecky
+#PBS -q standard
+#PBS -l select=1:ncpus=28:mem=168gb
+#PBS -l walltime=3:0:0
+#PBS -M bozhiliu@email.arizona.edu
+#PBS -m bea
+
+module load matlab/r2018a
+module load eigen
+module load zlib
+module load hdf5
+
+
+
+cd /home/u26/bozhiliu/exec
+matlab -r "tnew15"
