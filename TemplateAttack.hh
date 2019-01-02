@@ -1,6 +1,9 @@
 #ifndef _TEMPLATE_ATTACK_HEADER
 #define _TEMPLATE_ATTACK_HEADER
 
+
+#define template_prefix "/home/u26/bozhiliu/work/analyze_result/"
+
 #define set1 "normal"
 #define set2 "default_cache"
 #define set3 "cache_associate8"
